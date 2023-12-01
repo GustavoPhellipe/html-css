@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 007</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <label for="iestad">Estados:</label>
+        <select name="estados" id="iestad">
+
+        <p>
+            <optgroup label="Região Sudeste">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
+        </p>
+
+        <p>
+            <optgroup label="Região Nordeste">
+                <option value="PA">Pará</option>
+                <option value="MA">Maranhão</option>
+                <option value="PI">Paraiba</option>
+            </optgroup>
+        </p>
+        </select>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="Prof" id="iprof" list="1iprof">
+            <datalist id="1iprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imen">Mensagem:</label>
+            <textarea name="mens" id="imen" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    
+    </form>
+</body>
+</html>

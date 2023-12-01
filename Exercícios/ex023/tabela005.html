@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        caption{
+            font-weight: bold;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        col.nome{
+            background-color: aqua;
+        }
+        col.sexo{
+            background-color: blue;
+        }
+        col.idade{
+            background-color: yellow
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade" span="2">
+            
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+
+        <tr>
+            <td >Yasmin</td>
+            <td >Feminino</td>
+            <td >23</td>
+            <td >Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Roberto</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Policial</td>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>31</td>
+            <td>Artista</td>
+        </tr>
+
+        <tr>
+            <td>Thiago</td>
+            <td>Masculino</td>
+            <td>43</td>
+            <td>Bombeiro</td>
+        </tr>
+
+        <tr>
+            <td>Nathalia</td>
+            <td>Feminino</td>
+            <td>15</td>
+            <td>Programador Software</td>
+        </tr>
+    </table>
+</body>
+</html>
