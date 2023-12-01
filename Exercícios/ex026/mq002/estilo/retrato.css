@@ -3,7 +3,6 @@
 /* Aparelho em pé (portrait) */
 
 body{
-    background-image: url(../imagens/curiosidades-professor-gustavo-guanabara-gimp.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center center;
 }
