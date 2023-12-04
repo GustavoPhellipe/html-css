@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: rgb(148, 148, 148);
+}
+
+header h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+menu{
+    display: block;
+    
+}
+
+menu ul{
+    list-style: none;
+}
+
+menu a{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(42, 40, 40);
+    color: white;
+    border-top: 2px solid gray;
+}
+
+
+menu a:hover{
+    text-decoration: underline;
+    background-color: gray;
+    transition-duration: 0.8ss;
+}
+
+article{
+    width: 900px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+article h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+article p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
